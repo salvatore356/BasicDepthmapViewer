@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css" >
+    </head>
+    <body>
+
+        <section>
+            <div id="depth-viewer" />
+        </section>
+        
+        
+        <script src="assets/js/pixi.4.8.9.js"></script>
+        <script src="assets/js/DepthyViewer.js"></script>
+
+        <script>
+            let viewerContainer = document.getElementById("depth-viewer")
+            let viewer = new DepthyViewer(viewerContainer, {});
+            viewer.setImage('assets/imgs/img.jpg')
+            viewer.setDepthmap('assets/imgs/img-depth.jpg')
+        </script>
+        
+    </body>
+</html>
