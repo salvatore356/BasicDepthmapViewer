@@ -8,7 +8,7 @@ To get started, clone this repository onto your local machine. You can do this b
 
 bashCopy code
 
-`git clone https://github.com/username/depth-map-viewer.git` 
+`git clone https://github.com/salvatore356/BasicDepthmapViewer.git` 
 
 ## Dependencies
 
